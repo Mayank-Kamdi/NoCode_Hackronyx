@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F4EEFF;
+    color: #424874;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Custom Abhaya Palette (#F4EEFF, #DCD6F7, #A6B1E1, #424874) Glassmorphism Cards */
+.glass-panel {
+  background: rgba(220, 214, 247, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(166, 177, 225, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(66, 72, 116, 0.12);
+}
+
+.glass-panel-alert {
+  background: rgba(239, 68, 68, 0.15);
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(239, 68, 68, 0.8);
+  box-shadow: 0 0 30px rgba(239, 68, 68, 0.25);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4EEFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A6B1E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #424874;
+}
+
+/* Leaflet Map overrides for light theme */
+.leaflet-container {
+  background: #F4EEFF !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #DCD6F7 !important;
+  color: #424874 !important;
+  border: 1px solid rgba(166, 177, 225, 0.8);
+  border-radius: 8px !important;
+  backdrop-filter: blur(8px);
+}
+
+.leaflet-popup-tip {
+  background: #DCD6F7 !important;
+}

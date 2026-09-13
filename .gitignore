@@ -1,0 +1,32 @@
+# Virtual Environment
+backend/venv/
+venv/
+ENV/
+env/
+
+# Databases & SQLite
+*.db
+*.sqlite3
+backend/abhaya.db
+
+# Environment Variables & Secrets
+backend/.env
+.env
+
+# Node Dependencies & Build Outputs
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.vite/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+*.log
