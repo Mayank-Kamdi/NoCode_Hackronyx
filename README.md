@@ -1,6 +1,6 @@
-# ABHAYA — Real-Time Mobile-to-Mobile Emergency SOS Platform
+# NoCode — Real-Time Mobile-to-Mobile Emergency SOS Platform
 
-ABHAYA is a real-time women's safety & emergency response web application designed for instant mobile-to-mobile SOS dispatch with live GPS location tracking, interactive maps, persistent WebSockets, and multi-channel notifications (Telegram Bot & Twilio SMS).
+NoCode is a real-time women's safety & emergency response web application designed for instant mobile-to-mobile SOS dispatch with live GPS location tracking, interactive maps, persistent WebSockets, and multi-channel notifications (Telegram Bot & Twilio SMS).
 
 ---
 
@@ -14,7 +14,7 @@ ABHAYA is a real-time women's safety & emergency response web application design
        │
        ├───────────────────────────────┬───────────────────────────────┐
        ▼ [WebSocket /ws/security]      ▼ [100% Free Telegram Bot]      ▼ [Twilio SMS Gateway]
-📱 RESPONDER (Phone B / `/security-mobile`)  📲 TELEGRAM (@Abhaya_Security_Bot)   💬 OFFICER MOBILE SMS
+📱 RESPONDER (Phone B / `/security-mobile`)  📲 TELEGRAM (@NoCode_Security_Bot)   💬 OFFICER MOBILE SMS
 ```
 
 ---
@@ -22,7 +22,7 @@ ABHAYA is a real-time women's safety & emergency response web application design
 ## 📂 Project Directory Structure
 
 ```text
-SIH Abhaya/
+SIH NoCode/
 ├── backend/
 │   ├── app/
 │   │   ├── api/
@@ -95,7 +95,7 @@ TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 TELEGRAM_CHAT_ID=your_telegram_chat_id_here
 
 # Database URL
-DATABASE_URL=sqlite:///./abhaya.db
+DATABASE_URL=sqlite:///./nocode.db
 ```
 
 ---
